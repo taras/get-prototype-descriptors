@@ -1,5 +1,7 @@
 # get-prototype-descriptors
 
+[![Build Status](https://travis-ci.org/taras/get-prototype-descriptors.svg?branch=master)](https://travis-ci.org/taras/get-prototype-descriptors)
+
 Returns all descriptors of a prototype chain while respecting prototype inheritance. 
 
 ## Installation
