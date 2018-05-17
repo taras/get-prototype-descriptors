@@ -28,9 +28,6 @@
     "url": "https://github.com/taras/get-prototype-descriptors/issues"
   },
   "homepage": "https://github.com/taras/get-prototype-descriptors#readme",
-  "dependencies": {
-    "object.getownpropertydescriptors": "2.0.3"
-  },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
@@ -39,7 +36,8 @@
     "jest": "22.4.3",
     "rollup": "0.57.1",
     "rollup-plugin-babel": "4.0.0-beta.3",
-    "rollup-plugin-filesize": "1.5.0"
+    "rollup-plugin-filesize": "1.5.0",
+    "object.getownpropertydescriptors": "2.0.3"
   },
   "jest": {
     "testRegex": "(/tests/.*|\\.(test|spec))\\.(js)$",
@@ -58,5 +56,8 @@
     "moduleNameMapper": {
       "get-prototype-descriptors": "<rootDir>/dist/get-prototype-descriptors.umd.js"
     }
+  },
+  "dependencies": {
+    "invariant": "2.2.4"
   }
 }
