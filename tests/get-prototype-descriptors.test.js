@@ -1,7 +1,4 @@
 import 'jest';
-import shim from 'object.getownpropertydescriptors/shim';
-
-shim();
 
 import getPrototypeDescriptors from 'get-prototype-descriptors';
 

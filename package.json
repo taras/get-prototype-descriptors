@@ -45,6 +45,7 @@
       "js",
       "json"
     ],
+    "setupFiles": ["./shims.js"],
     "globalSetup": "./build.js",
     "modulePaths": [
       "<rootDir>/src",
