@@ -1,6 +1,8 @@
-import getOwnPropertyDescriptors from 'object.getownpropertydescriptors';
+import invariant from 'invariant';
 
-const { getPrototypeOf, assign } = Object;
+const { getPrototypeOf, assign, getOwnPropertyDescriptors } = Object;
+
+invariant(getOwnPropertyDescriptors, 'get-prototype-descriptors requires Object.getOwnPropertyDescriptors. See https://github.com/taras/get-prototype-descriptors#compatibility')
 
 export default function getPrototypeDescriptors(constructor) {
   let prototype = getPrototypeOf(constructor);
