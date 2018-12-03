@@ -35,10 +35,6 @@ module.exports = {
         ]
       ]
     }),
-    filesize({
-      render(opt, size, gzip, bundle) {
-        return `Built: ${bundle.file} ( size: ${size}, gzip: ${gzip})`;
-      }
-    })
+    filesize()
   ]
 };
