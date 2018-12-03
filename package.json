@@ -1,6 +1,6 @@
 {
   "name": "get-prototype-descriptors",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Gather descriptors from constructor's prototype chain",
   "main": "dist/get-prototype-descriptors.cjs.js",
   "module": "dist/get-prototype-descriptors.esm.js",
