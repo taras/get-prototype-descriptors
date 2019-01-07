@@ -34,9 +34,10 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
-    "rollup": "0.68.2",
+    "rollup": "1.0.0",
     "rollup-plugin-babel": "4.2.0",
     "rollup-plugin-filesize": "5.0.1",
+    "rollup-plugin-filesize": "6.0.0",
     "object.getownpropertydescriptors": "2.0.3"
   },
   "jest": {
