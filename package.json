@@ -37,7 +37,7 @@
     "rollup": "1.15.1",
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-filesize": "6.1.0",
-    "object.getownpropertydescriptors": "2.0.3"
+    "object.getownpropertydescriptors": "2.1.0"
   },
   "jest": {
     "testRegex": "(/tests/.*|\\.(test|spec))\\.(js)$",
