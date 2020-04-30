@@ -36,7 +36,7 @@
     "jest": "23.6.0",
     "rollup": "2.3.3",
     "rollup-plugin-babel": "4.3.3",
-    "rollup-plugin-filesize": "7.0.0",
+    "rollup-plugin-filesize": "8.0.0",
     "object.getownpropertydescriptors": "2.1.0"
   },
   "jest": {
